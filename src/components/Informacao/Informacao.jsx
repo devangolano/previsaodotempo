@@ -1,10 +1,10 @@
 import React from 'react';
 
-function Informacao({ tempo }) {
+function Informacao({ tempo}) {
     // Verifica se a informação está disponível
     if (!tempo || Object.keys(tempo).length === 0) {
         return (
-            <div className='bg-slate-900/55 p-4 rounded-lg shadow-xl shadow-slate-900 w-9/12 lg:w-6/12 mx-auto mt-6 text-center'>
+            <div>
                 <p className='text-base text-red-400 font-semibold'>
                     Busque o clima de uma cidade.
                 </p>
@@ -22,8 +22,10 @@ function Informacao({ tempo }) {
     const humidity = tempo.main.humidity; // Umidade
     const description = tempo.weather[0].description; // Descrição do clima
 
+
+
     return (
-        <div className='bg-slate-900/55 p-4 md:p-8 lg:p-10 rounded-lg shadow-xl shadow-slate-900 w-9/12 lg:w-6/12 mx-auto mt-6'>
+        <div className='bg-slate-900/55 p-2 md:p-8 lg:p-10 rounded-lg shadow-xl shadow-slate-900 w-9/12 lg:w-6/12  min-h-auto mx-auto mt-6'>
             <h2 className='text-2xl md:text-3xl lg:text-4xl font-bold text-gray-200 mb-4 text-center'>
                 {tempo.name}
             </h2>
