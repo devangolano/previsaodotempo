@@ -27,7 +27,7 @@ function App() {
   }
 
   return (
-    <div className='flex flex-col items-center mx-auto mt-2 p-6 md:p-6 overflow-x-hidden'>
+    <div className='bg-slate-900/70 flex flex-col h-screen items-center mx-auto p-6 md:p-6 overflow-x-hidden'>
       <h1 className='py-4 font-extrabold text-2xl md:text-4xl text-white'>
         Previsão do Tempo
       </h1>
@@ -40,7 +40,7 @@ function App() {
   />
   <button
     onClick={searchcity}
-    className='text-xl text-white bg-red-400 p-2 rounded-md shadow-lg shadow-slate-200 mt-2 sm:mt-0 sm:ml-2 flex-shrink-0'
+    className='text-xl text-white bg-red-400 p-2 rounded-md shadow-lg shadow-slate-200/80 mt-2 sm:mt-0 sm:ml-2 flex-shrink-0'
   >
     Buscar
   </button>
