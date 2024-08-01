@@ -25,7 +25,7 @@ function Informacao({ tempo}) {
 
 
     return (
-        <div className='bg-slate-900/55 p-2 md:p-8 lg:p-10 rounded-lg shadow-xl shadow-slate-900 w-9/12 lg:w-6/12  min-h-auto mx-auto mt-6'>
+        <div className='bg-slate-900/55 p-2 md:p-8 lg:p-10 rounded-lg shadow-md shadow-slate-200/80 w-9/12 lg:w-6/12  min-h-auto mx-auto mt-6'>
             <h2 className='text-2xl md:text-3xl lg:text-4xl font-bold text-gray-200 mb-4 text-center'>
                 {tempo.name}
             </h2>

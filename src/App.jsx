@@ -27,11 +27,11 @@ function App() {
   }
 
   return (
-    <div className='bg-slate-900/70 flex flex-col h-screen items-center mx-auto p-6 md:p-6 overflow-x-hidden'>
+    <div className='bg-slate-900/70 flex flex-col h-screen items-center mx-auto p-2 md:p-6 overflow-x-hidden'>
       <h1 className='py-4 font-extrabold text-2xl md:text-4xl text-white'>
         Previsão do Tempo
       </h1>
-      <div className='flex flex-col sm:flex-row mb-4 w-full max-w-md mx-auto'>
+      <div className='flex flex-col sm:flex-row mb-4 w-full px-4 max-w-md mx-auto'>
   <input
     type="text"
     placeholder='Digite a sua cidade:'
