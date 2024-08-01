@@ -41,7 +41,7 @@ function Informacao({ tempo}) {
                     </p>
                     <div className='flex flex-col md:flex-row text-sm md:text-base gap-2 md:gap-4'>
                         <p className='text-gray-100'>Pressão: {pressure} hPa</p>
-                        <p className='text-gray-100'>Umidade: {humidity}%</p>
+                        <p className='text-gray-100'>Humidade: {humidity}%</p>
                         <p className='text-gray-200'>📍 {description}</p>
                     </div>
                 </div>
