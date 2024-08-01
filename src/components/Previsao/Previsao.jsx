@@ -15,7 +15,7 @@ function Previsao({ previsao }) {
     // Verifica se a lista de previsões está disponível
     if (!previsao || !previsao.list || previsao.list.length === 0) {
         return (
-            <div className='bg-slate-900/60 p-8 rounded-lg shadow-xl shadow-slate-800 max-w-4xl mx-auto w-11/12 md:w-1/2 mt-6 text-gray-100'>
+            <div className='bg-slate-900/60 p-4 rounded-lg shadow-xl shadow-slate-800 max-w-4xl mx-auto md:w-1/2 mt-6 text-gray-100'>
                 <p className='text-lg text-gray-300'>Nenhuma previsão disponível.</p>
             </div>
         );
