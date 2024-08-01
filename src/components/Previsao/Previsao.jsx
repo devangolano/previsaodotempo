@@ -49,7 +49,7 @@ function Previsao({ previsao }) {
                         <p className='text-md text-center font-base'>{Math.round(cadaData.main.temp)}°C</p>
                         <p className='text-sm'>Descrição: {cadaData.weather[0].description}</p>
                         <p className='text-sm'>Pressão: {cadaData.main.pressure} hPa</p>
-                        <p className='text-sm'>Umidade: {cadaData.main.humidity}%</p>
+                        <p className='text-sm'>Humidade: {cadaData.main.humidity}%</p>
                     </div>
                 ))}
             </div>
