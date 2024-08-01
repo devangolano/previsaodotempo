@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    background-image: url("https://editalconcursosbrasil.com.br/wp-content/uploads/2022/05/terra.jpg");
+    background-repeat: no-repeat; /* Impede a repetição da imagem de fundo */
+    background-size: cover; /* Faz com que a imagem cubra toda a tela */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-attachment: fixed; /* Mantém a imagem de fundo fixa durante o rolar da página */
+    height: 100vh; /* Define a altura do corpo para preencher a tela inteira */
+    width: 100vw; /* Define a largura do corpo para preencher a tela inteira */
+}
